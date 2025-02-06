@@ -3,6 +3,6 @@
 int main() {
     float r;
     scanf("%f",&r);
-    printf("%f", (22/7)*r*r);
+    printf("%f", 3.14*r*r);
     return 0;
 }

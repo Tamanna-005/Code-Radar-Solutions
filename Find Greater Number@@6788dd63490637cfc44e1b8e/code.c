@@ -7,11 +7,8 @@ int main() {
     if (a>b ){
         printf("%d",a);
     }
-    if else(a<b){
-        printf("%d",b);
-    }
     else{
-        printf("both integer are equal");
+        printf("%d",b);
     }
     return 0;
 }

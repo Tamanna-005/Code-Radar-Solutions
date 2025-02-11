@@ -2,21 +2,21 @@
 int main(){
     char a='A',b='B',c='C',d='D',e='F';
     scanf("%c%c%c%c%c",a,b,c,d,e);
-    if (a)
+    if (A)
     {
         printf("Excellent");
     }
-    else if(b)
+    else if(B)
     {
         printf("Good");
     }
-    else if(c)
+    else if(C)
     {printf("Average");
     }
-    else if(d){
+    else if(D){
         printf("Below Average");
     }
-    else if(e){
+    else if(F){
         printf("Fail");
     }
     else{

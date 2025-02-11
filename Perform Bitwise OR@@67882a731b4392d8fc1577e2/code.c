@@ -9,7 +9,7 @@ int main() {
     result = a | b;
     
     // Print the result
-    printf("The result of %d | %d is %d\n", a, b, result);
+    printf("%d", a, b, result);
     
     return 0;
 }

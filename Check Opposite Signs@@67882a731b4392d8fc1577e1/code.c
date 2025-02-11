@@ -6,9 +6,9 @@ int main() {
     scanf("%d%d", &a, &b);
 
     if ((a > 0 && b < 0) || (a < 0 && b > 0)) {
-        printf("The numbers have opposite signs.\n");
+        printf("True");
     } else {
-        printf("The numbers do not have opposite signs.\n");
+        printf("False");
     }
 
     return 0;

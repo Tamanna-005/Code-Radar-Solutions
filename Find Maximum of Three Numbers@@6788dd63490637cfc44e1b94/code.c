@@ -8,11 +8,11 @@ int main() {
     
 
     if (num1 >= num2 && num1 >= num3) {
-        max = num1;
+        printf("%d",num1);
     } else if (num2 >= num1 && num2 >= num3) {
-        max = num2;
+        printf("%d",num2);
     } else {
-        max = num3;
+        printf("%d",num3);
     }
     
     // Output the maximum number

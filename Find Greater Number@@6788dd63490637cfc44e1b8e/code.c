@@ -10,5 +10,8 @@ int main() {
     if else(a<b){
         printf("%d",b);
     }
+    else{
+        printf("both integer are equal");
+    }
     return 0;
 }

@@ -3,20 +3,20 @@ int main(){
     char a;
     scanf("%c",&a);
 
-    if("%c",a='A'){
+    if(a='A'){
     printf("Excellent \n");}
     
 
-    else if ("%c",a='B''){
+    else if (a='B''){
         printf("Good \n");}
 
-    else if("%c",a='C'){
+    else if(a='C'){
     printf("Average \n");}
 
-    else if("%c",a='D'){
+    else if(a='D'){
     printf("Below Average \n");}
 
-    else if("%c",a='F'){
+    else if(a='F'){
     printf("Fail \n");}
     
     

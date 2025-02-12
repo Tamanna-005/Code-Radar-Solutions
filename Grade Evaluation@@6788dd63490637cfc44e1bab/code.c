@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char a[100];
+    char a;
     scanf("%c",&a);
 
     if("%c",a='A'){

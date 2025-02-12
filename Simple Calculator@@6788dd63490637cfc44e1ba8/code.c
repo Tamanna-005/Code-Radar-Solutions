@@ -23,7 +23,7 @@ int main() {
             if (num2 != 0) {
                 printf("%d / %d = %d\n", num1, num2, num1 / num2);
             } else {
-                printf("Error! Division by zero.\n");
+                printf("Error\n");
             }
             break;
         default:

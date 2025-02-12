@@ -23,11 +23,11 @@ int main() {
             if (num2 != 0) {
                 printf("%d / %d = %d\n", num1, num2, num1 / num2);
             } else {
-                printf("Error\n");
+                printf("error\n");
             }
             break;
         default:
-            printf("Error\n");
+            printf("error\n");
     }
 
     return 0;

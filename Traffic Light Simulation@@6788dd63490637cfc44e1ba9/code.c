@@ -12,7 +12,7 @@ int main(){
         case 'Y':
         printf("Slow Down\n");
         break;
-        default;
+        default:
         printf("Invalid input\n");
         break;
 

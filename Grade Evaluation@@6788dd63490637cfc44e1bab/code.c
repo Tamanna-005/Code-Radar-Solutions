@@ -5,21 +5,21 @@ int main(){
 
     switch(a){
 case 'A':
-printf("Excellent");
+printf("Excellent\n");
 break;
 case 'B':
-printf("Good");
+printf("Good\n");
 break;
 case 'C':
-printf("Average");
+printf("Average\n");
 break;
 case 'D':
-printf("Below Average");
+printf("Below Average\n");
 break;
 case 'F':
-printf("Fail");
-default;
-printf("Invalid grade");
+printf("Fail\n");
+default:
+printf("Invalid grade\n");
 break;
     }
     return 0;

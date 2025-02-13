@@ -18,7 +18,7 @@ printf("Below Average");
 break;
 case 'F':
 printf("Fail");
-default:
+default;
 printf("Invalid grade");
 break;
     }

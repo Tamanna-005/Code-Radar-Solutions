@@ -5,12 +5,12 @@ int getNthBit(int number, int n) {
 }
 
 int main() {
-    int number // Example number
-    int n       // Example bit position (0-based index)
+    int number = 29; // Example number
+    int n = 3;       // Example bit position (0-based index)
 scanf("%d",&numer);
 scanf("%d",&n);
     int bitValue = getNthBit(number, n);
-    printf(" %d\n", n);
+    printf("The %dth bit of %d is: %d\n", n, number, bitValue);
 
     return 0;
 }

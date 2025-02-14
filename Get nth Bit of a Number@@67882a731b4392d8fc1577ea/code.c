@@ -10,7 +10,7 @@ int main() {
 scanf("%d",&numer);
 scanf("%d",&n);
     int bitValue = getNthBit(number, n);
-    printf("The %dth bit of %d is: %d\n", n, number, bitValue);
+    printf(" %d\n", n);
 
     return 0;
 }

@@ -8,7 +8,7 @@ int main() {
 
     for (i = 1; i <= N; i++) {
 
-        for (j = 1; j <= (2 * i - 1); j++) {
+        for (' ' * (N - i - 1) + '*' * (2 * i + 1)) {
             printf("* ");
         }
         printf("\n");

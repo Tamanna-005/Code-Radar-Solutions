@@ -15,7 +15,7 @@ int main() {
     printf("error");
    }
    break;
-   default: print("error");
+   default: printf("error");
    }
 
 

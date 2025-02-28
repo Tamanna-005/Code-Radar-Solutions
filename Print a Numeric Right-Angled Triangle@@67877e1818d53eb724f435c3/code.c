@@ -1,24 +1,15 @@
-// Your code here...
 #include <stdio.h>
 
-int main() {
-    int N, i, j, k;
+int main(){
+    int a,i,j;
+    scanf("%d",&a);
 
-    
-    scanf("%d", &N);
+    for(i=1;i<=a;i++){
 
-    for (i = 1; i <= N; i++) {
-        
-        for (j = 1; j <= N - i; j++) {
-            printf(" ");
+        for(j=1;j<=i;j++){
+            printf("%d " ,j);
         }
-        
-        for (k = 1; k <= i; k++) {
-            printf("*");
-        }
-        
         printf("\n");
     }
-
     return 0;
 }

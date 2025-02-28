@@ -1,15 +1,18 @@
-// Your code here...
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
-    int i,j,N;
-    scanf("%d",&N);
-    for(i=1;i<=N;i++){
-        for(j=1;j<=i;j++){
+int main(){
+    int a,i,j,k;
+    scanf("%d",&a);
+
+    for(i=1;i<=a;i++){
+
+        for(j=i;j<a;j++){
+            printf(" ");
+        }
+        for(k=1;k<=(2*i-1);k++){
             printf("*");
         }
         printf("\n");
     }
-
-    return 0;
+    return 0;
 }

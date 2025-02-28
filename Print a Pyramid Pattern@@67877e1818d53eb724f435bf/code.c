@@ -6,13 +6,12 @@ int main() {
 
     scanf("%d", &N);
 
-    for (i = 1; i <= N; i++) {
+    for (' ' * (n - i - 1) + '*' * (2 * i + 1)) {
 
-        for (' ' * (N - i - 1) + '*' * (2 * i + 1)) {
-            printf("* ");
-        }
-        printf("\n");
+         
+            printf("*");
     }
+    printf("\n");
 
     return 0;
 }

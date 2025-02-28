@@ -1,34 +1,23 @@
 #include <stdio.h>
 
 int main() {
-    char operator;
-    int num1, num2;
+   int a,b;
+   char ch;
+   scanf("%d %d %c",&a,&b,&ch);
+   switch(ch){
+    case'+':printf("%d\n",a+b); break;
+    case'-':printf("%d\n",a-b); break;
+   case'*':printf("%d\n",a*b); break;
+   case'/': if(b=!0){
+    printf("%d\n",a/b);
+   }
+   else {
+    printf("error");
+   }
+   break;
+   default: print("error");
+   }
 
-
-    scanf("%c", &operator);
-
-    scanf("%d %d", &num1, &num2);
-
-    switch (operator) {
-        case '+':
-            printf("%d + %d = %d\n", num1, num2, num1 + num2,"+");
-            break;
-        case '-':
-            printf("%d - %d = %d\n", num1, num2, num1 - num2,"-");
-            break;
-        case '*':
-            printf("%d * %d = %d\n", num1, num2, num1 * num2,"*");
-            break;
-        case '/':
-            if (num2 != 0) {
-                printf("%d / %d = %d\n", num1, num2, num1 / num2,"/");
-            } else {
-                printf("error\n");
-            }
-            break;
-        default:
-            printf("error\n");
-    }
 
     return 0;
 }

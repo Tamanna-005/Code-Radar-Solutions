@@ -1,5 +1,5 @@
 // Your code here...
-nt main(){
+int main(){
     int num;
     scanf("%d",&num);
     printf("%d\n",num==0?32:

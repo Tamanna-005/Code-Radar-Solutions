@@ -2,16 +2,14 @@
 #include <stdio.h>
 
 int main() {
-    int N, i, j;
-
-    scanf("%d", &N);
-
-    for (' ' * (N - i - 1) + '*' * (2 * i + 1)) {
-
-         
+    int i,j,r;
+    scanf("%d",&r);
+    for(i=1;i<=r;i++){
+        for(j=1;j<=i;j++){
             printf("*");
+        }
+        printf("\n");
     }
-    printf("\n");
 
     return 0;
 }

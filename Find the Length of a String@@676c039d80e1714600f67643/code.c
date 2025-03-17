@@ -12,7 +12,6 @@ int stringLength(char str[]) {
 int main() {
     char str[100];
     fgets(str, sizeof(str), stdin); // Read input including spaces
-    str[strcspn(str, "\n")] = '\0'; // Remove trailing newline character
 
     int length = stringLength(str);
     printf("%d\n", length);

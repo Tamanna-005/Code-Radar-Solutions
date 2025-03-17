@@ -20,7 +20,7 @@ int main() {
     str[strcspn(str, "\n")] = '\0'; // Remove trailing newline character
 
     int vowelCount = countVowels(str);
-    printf("Number of vowels: %d\n", vowelCount);
+    printf("%d\n", vowelCount);
 
     return 0;
 }

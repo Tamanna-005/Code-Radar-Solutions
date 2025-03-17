@@ -23,10 +23,10 @@ void concatenateStrings(char str1[], char str2[]) {
 int main() {
     char str1[200], str2[100];
 
-    scanf("%d",&str1);
+    scanf("%s",&str1);
     fgets(str1, sizeof(str1), stdin);
 
-    scanf("%d",&str2);
+    scanf("%s",&str2);
     fgets(str2, sizeof(str2), stdin);
 
     concatenateStrings(str1, str2);

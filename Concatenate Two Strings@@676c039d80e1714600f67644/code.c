@@ -25,11 +25,9 @@ int main() {
 
     printf(" ");
     fgets(str1, sizeof(str1), stdin);
-    str1[strcspn(str1, "\n")] = '\0'; // Remove trailing newline
 
     printf(" ");
     fgets(str2, sizeof(str2), stdin);
-    str2[strcspn(str2, "\n")] = '\0'; // Remove trailing newline
 
     concatenateStrings(str1, str2);
 

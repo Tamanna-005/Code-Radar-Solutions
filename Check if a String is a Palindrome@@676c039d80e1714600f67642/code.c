@@ -17,9 +17,9 @@ int main() {
     scanf("%s", str); // Reads a single word string without spaces
 
     if (isPalindrome(str)) {
-        printf("%s\n", str);
+        printf("Yes");
     } else {
-        printf("%s\n", str);
+        printf("No");
     }
 
     return 0;
